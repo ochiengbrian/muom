@@ -1,7 +1,32 @@
+.Header{
+    justify-content: center;
+}
+
 .Header__component{
-    padding: 50px;
-    margin:3px;
+    margin-top: 0px;
+    padding: 1px;
     color: aliceblue;
-    background-image: linear-gradient(to right, rgb(184, 214, 230),rgb(139, 197, 226) ,rgb(57, 167, 223),rgb(139, 197, 226), rgb(184, 214, 230));
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(232, 234, 235),rgb(184, 214, 230),rgb(139, 197, 226) ,rgb(57, 167, 223),rgb(139, 197, 226), rgb(184, 214, 230),rgb(232, 234, 235));
     border-radius: 10px;
+}
+
+.Header__searchBar{
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Header__image{
+    height: 100px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.button{
+    padding: 10px 24px;
+    margin-left: 10px;
 }
