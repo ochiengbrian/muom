@@ -1,10 +1,10 @@
-#button{
+.Shop__nowButton{
     border-radius: 10px;
     background-image: linear-gradient(to right, rgb(232, 234, 235),rgb(184, 214, 230),rgb(139, 197, 226) ,rgb(57, 167, 223),rgb(139, 197, 226), rgb(184, 214, 230),rgb(232, 234, 235));
     padding: 5px;
     font-size: large;
 }
-#button:hover{
+.Shop__nowButton:hover{
     background-color: aqua;
     cursor:pointer;
 }

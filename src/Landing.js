@@ -4,7 +4,7 @@ import './Landing.css'
 function Landing() {
   return (
     <div className='Landing__button'>
-        <button id='button'>Shop Now</button>
+        <button className='Shop__nowButton'>Shop Now</button>
     </div>
   )
 }
