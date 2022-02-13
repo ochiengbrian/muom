@@ -1,6 +1,7 @@
 
 import './App.css';
 import Header from './Header';
+import Landing from './Landing';
 import Navbar from './Navbar';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <header >
         <Header />
         <Navbar />
+        <Landing />
       </header>
     </div>
   );

@@ -1,0 +1,10 @@
+#button{
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+    
+}
+#button:hover{
+    background-color: aqua;
+    cursor:crosshair;
+}
