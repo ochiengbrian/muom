@@ -4,6 +4,7 @@ import Header from './Header';
 import Landing from './Landing';
 import Navbar from './Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from './Home';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Switch>
           <Route path='/navbar'>
             <Navbar />
+            <Home />
           </Route>
           <Route path='/'>
             <Landing />
