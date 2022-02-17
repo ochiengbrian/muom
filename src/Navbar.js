@@ -7,7 +7,7 @@ function Header() {
 
     <ReactBootStrap.Navbar bg="light" expand="lg">
     <ReactBootStrap.Container fluid>
-      <ReactBootStrap.Navbar.Brand href="#">Masterpiece</ReactBootStrap.Navbar.Brand>
+      <ReactBootStrap.Navbar.Brand href="/">Masterpiece</ReactBootStrap.Navbar.Brand>
       <ReactBootStrap.Navbar.Toggle aria-controls="navbarScroll" />
       <ReactBootStrap.Navbar.Collapse id="navbarScroll">
         <ReactBootStrap.Nav
@@ -22,7 +22,7 @@ function Header() {
           <ReactBootStrap.NavDropdown title="Services" id="navbarScrollingDropdown">
             <ReactBootStrap.NavDropdown.Item href="#action3">Laptop checkup</ReactBootStrap.NavDropdown.Item>
             <ReactBootStrap.NavDropdown.Item href="#action4">Systems diagnostics</ReactBootStrap.NavDropdown.Item>
-            <ReactBootStrap.NavDropdown.Item href="#action4">Phone & Phone stickers</ReactBootStrap.NavDropdown.Item>
+            <ReactBootStrap.NavDropdown.Item href="#action4">Phone & Laptop stickers</ReactBootStrap.NavDropdown.Item>
             <ReactBootStrap.NavDropdown.Divider />
             <ReactBootStrap.NavDropdown.Item href="#action5">
               More about the Masterpiece Family
