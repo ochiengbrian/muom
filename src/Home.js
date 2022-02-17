@@ -4,6 +4,7 @@ import './Home.css'
 
 function Home() {
   return (
+    <div className='Home__container'>
     <ReactBootStrap.Card style={{ width: '18rem' }}>
     <ReactBootStrap.Card.Img variant="top" src="images/model-3.jpg"/>
     <ReactBootStrap.Card.Body>
@@ -15,6 +16,7 @@ function Home() {
       <ReactBootStrap.Button variant="primary">ADD TO CART</ReactBootStrap.Button>
     </ReactBootStrap.Card.Body>
   </ReactBootStrap.Card>
+  </div>
   );
   
 }

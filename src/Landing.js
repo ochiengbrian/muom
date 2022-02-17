@@ -6,7 +6,7 @@ import './Landing.css'
 function Landing() {
   return (
     <div className='Landing__button'>
-        <Link to='./Navbar'><button className='Shop__nowButton'>Shop Now</button></Link>
+        <Link to='./Navbar'><button className='Shop__nowButton'>Visit Our Shop</button></Link>
     </div>
   )
 }
