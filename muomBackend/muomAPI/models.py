@@ -39,8 +39,8 @@ other_electronics = (
 class SingleMovies(models.Model):
     name = models.CharField(max_length=35, null=False)
     description = models.CharField(max_length=250, null=False)
-    image = models.ImageField(upload_to=None, null=True)
-    image_url = models.URLField(null=True)
+    image = models.ImageField(blank=True, null=True)
+    image_url = models.URLField(blank=True, null=True, max_length=1024)
     category = models.CharField(max_length=25, choices=category_ms, default='action')
 
 
