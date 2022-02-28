@@ -1,9 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Landing.css'
 
 
 function Landing() {
+  let navigate = useNavigate();
   return (
     <div>
       <img className='Landing__image' src='images/4.jpg' alt='MASTERPIECE'/>
@@ -12,7 +13,7 @@ function Landing() {
         If you use a phone, you already have what it takes to reach us.
     </div>
     <div className='Landing__button'>
-        <Link to='/Home'><button className='Shop__nowButton'>Visit Our Shop</button></Link>
+        <button className='Shop__nowButton' onClick={()=>{navigate("/home")}}>Visit Our Shop</button>
     </div>
     </div>
   )
