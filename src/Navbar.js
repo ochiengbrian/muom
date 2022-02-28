@@ -1,5 +1,4 @@
 import React from 'react';
-import SearchIcon from '@mui/icons-material/Search';
 import * as ReactBootStrap from 'react-bootstrap';
 
 function Header() {
@@ -22,7 +21,11 @@ function Header() {
           <ReactBootStrap.NavDropdown title="Services" id="navbarScrollingDropdown">
             <ReactBootStrap.NavDropdown.Item href="#action3">Laptop checkup</ReactBootStrap.NavDropdown.Item>
             <ReactBootStrap.NavDropdown.Item href="#action4">Systems diagnostics</ReactBootStrap.NavDropdown.Item>
+<<<<<<< HEAD
             <ReactBootStrap.NavDropdown.Item href="#action4">Phone & Laptop stickers</ReactBootStrap.NavDropdown.Item>
+=======
+            <ReactBootStrap.NavDropdown.Item href="#action4">Laptop & Phone stickers</ReactBootStrap.NavDropdown.Item>
+>>>>>>> b53d6c10af6ea2dd223674119d2b940e81eaafff
             <ReactBootStrap.NavDropdown.Divider />
             <ReactBootStrap.NavDropdown.Item href="#action5">
               More about the Masterpiece Family

@@ -1,11 +1,23 @@
 .Shop__nowButton{
+<<<<<<< HEAD
+=======
+    margin-top: 10px;
+    color: aliceblue;
+>>>>>>> b53d6c10af6ea2dd223674119d2b940e81eaafff
     border-radius: 10px;
     background-image: linear-gradient(to right, rgb(232, 234, 235),rgb(184, 214, 230),rgb(139, 197, 226) ,rgb(57, 167, 223),rgb(139, 197, 226), rgb(184, 214, 230),rgb(232, 234, 235));
     padding: 5px;
     font-size: large;
 }
 .Shop__nowButton:hover{
+<<<<<<< HEAD
     background-color: aqua;
+=======
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+>>>>>>> b53d6c10af6ea2dd223674119d2b940e81eaafff
     cursor:pointer;
 }
 
