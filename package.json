@@ -15,11 +15,7 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.2",
     "react-dom": "^17.0.2",
-<<<<<<< HEAD
     "react-router-dom": "^6.2.1",
-=======
-    "react-router-dom": "^5.3.0",
->>>>>>> b53d6c10af6ea2dd223674119d2b940e81eaafff
     "react-scripts": "5.0.0",
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.4"

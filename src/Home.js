@@ -6,11 +6,7 @@ function Home() {
   return (
     <div className='Home__container'>
     <ReactBootStrap.Card style={{ width: '18rem' }}>
-<<<<<<< HEAD
     <ReactBootStrap.Card.Img variant="top" src="images/tesla model 3.png"/>
-=======
-    <ReactBootStrap.Card.Img variant="top" src="images/model-3.jpg"/>
->>>>>>> b53d6c10af6ea2dd223674119d2b940e81eaafff
     <ReactBootStrap.Card.Body>
       <ReactBootStrap.Card.Title>Tesla model 3</ReactBootStrap.Card.Title>
       <ReactBootStrap.Card.Text>
