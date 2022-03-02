@@ -18,7 +18,7 @@ function App() {
       <Route path='/home' element={[<Navbar/>, <Home/>]}/>
       <Route path='*' element={<Errorpage/>}/>
     </Routes>
-    <Footer/> 
+    {/* <Footer/> */}
     </div>
     </Router>
   );
